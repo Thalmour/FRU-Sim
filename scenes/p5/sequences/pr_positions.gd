@@ -61,3 +61,31 @@ const LIGHT_POS_2 := {
 	"r1": NE_TOWER + Vector2(6, -2.6), "r2": NE_TOWER + Vector2(6, -2.8), 
 	"h1": NORTH_MID + Vector2(0, -2), "h2": NORTH_MID + Vector2(0, 2)
 }
+
+const DARK_POS_1_IT := {
+	"t1": NW_TOWER, "t2": MID - Vector2(2, 0),
+	"m1": SOUTH_TOWER - Vector2(0, 9.5), "m2": SOUTH_TOWER + Vector2(0, 9.5), 
+	"r1": SOUTH_TOWER - Vector2(1, 10), "r2": SOUTH_TOWER + Vector2(1, 10), 
+	"h1": SOUTH_TOWER - Vector2(0, 2), "h2": SOUTH_TOWER + Vector2(0, 2)
+}
+
+const LIGHT_POS_1_IT := {
+	"t1": NE_TOWER, "t2": LIGHT_TANK_OUT,
+	"m1": SOUTH_TOWER + Vector2(-7, -7), "m2": SOUTH_TOWER + Vector2(-7, 7), 
+	"r1": SOUTH_TOWER + Vector2(-7.2, -6.8), "r2": SOUTH_TOWER + Vector2(-7.2, 6.8), 
+	"h1": SOUTH_TOWER - Vector2(0, 2), "h2": SOUTH_TOWER + Vector2(0, 2)
+}
+
+const DARK_POS_2_IT := {
+	"t1": NORTH_FAR, "t2": DARK_TANK_IN,
+	"m1": NW_TOWER + Vector2(4.1, 3.9), "m2": NE_TOWER + Vector2(4.1, -3.9), 
+	"r1": NW_TOWER + Vector2(3.8, 4.2), "r2": NE_TOWER + Vector2(3.8, -4.2), 
+	"h1": NORTH_MID - Vector2(0, 2), "h2": NORTH_MID + Vector2(0, 2)
+}
+
+const LIGHT_POS_2_IT := {
+	"t1": MID + Vector2(2, 0), "t2": LIGHT_TANK_IN,
+	"m1": NW_TOWER + Vector2(4.1, 3.9), "m2": NE_TOWER + Vector2(4.1, -3.9), 
+	"r1": NW_TOWER + Vector2(3.8, 4.2), "r2": NE_TOWER + Vector2(3.8, -4.2), 
+	"h1": NORTH_MID + Vector2(0, -2), "h2": NORTH_MID + Vector2(0, 2)
+}

@@ -1,14 +1,17 @@
-# Copyright 2025
-# All rights reserved.
-# This file is released under "GNU General Public License 3.0".
-# Please see the LICENSE file that should have been included as part of this package.
-
+\
+\
+\
+\
+\
 extends OptionButton
+@onready var PRButton:OptionButton = get_node("/root/P5Main/Buttons/P5PRSelectButton")
 
 
-func _ready() -> void:
+func _ready() -> void :
 	selected = Global.p5_selected_seq
+	PRButton.visible = selected
 
-
-func _on_item_selected(index : int) -> void:
+func _on_item_selected(index: int) -> void :
 	Global.p5_selected_seq = index
+	PRButton.visible = selected
+	
